@@ -2,39 +2,53 @@ $roboto:'Thin', sans-serif;
 $teal:#009688;
 $white:#FEFEFE;
 
+html{
+	background-color: $teal;
+}
 
-.jumbotron{
-	background-color:$teal;
-	height:600px;
+.jumbotron {
+	height:100%;
 
-	.divProfil{
+	.divProfil {
 		text-align: center;
-		padding-top:100px;
+		padding-top: 60px;
 
-		.imageProfil{
+		.imageProfil {
 			height: 250px;
 			width: 250px;
 			border-radius: 50%;
-			margin:auto;
+			margin: auto;
 			display: block;
 		}
 	}
 
-	.divTitle{
-		margin-top:50px;
-		
-		h5{
+	.divTitle {
+		margin-top: 50px;
+
+		h5 {
 			font-weight: 200;
-			color:$white;
-			font-size:48px;
+			color: $white;
+			font-size: 48px;
 		}
 
-		p{
-			color:$white;
-			font-weight:200;
-			margin:0;
+		p {
+			color: $white;
+			font-weight: 200;
+			margin: 0;
 			font-size: 28px;
 			font-style: italic;
+		}
+	}
+
+	.divVisite{
+		margin-top:50px;
+
+
+		.startVisite{
+			padding:10px;
+			border-radius: 10px;
+			background-color:$white;
+			display: inline-block;
 		}
 	}
 }
